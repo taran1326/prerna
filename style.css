@@ -3,6 +3,7 @@ body{
     margin: 0;
     text-align: center;
 }
+
 p{
     margin: auto;
     width: 50%;
@@ -14,7 +15,7 @@ li {
 
 a {
     font-size: 25px;
-    color: black;
+    color: white;
     text-decoration-line: none;
     margin: 3%;
 }
@@ -31,12 +32,17 @@ a:hover{
 }
 .top-container{
     position: relative;
-    background-color: #FFAAA7;
+    background-image: url(l.jpg) ;
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-size: cover;
 
 }
 .featured{
+    font-family: 'Overlock', cursive;
     font-size: 40px;
-    padding: 50px auto 20px auto;
+    padding-top: 50px ;
+    padding-bottom: 50px;
 }
 .middle-container{
     position : relative;
@@ -79,7 +85,7 @@ a:hover{
 .footer{
     background-color:#98DDCA;
     padding-bottom: 20px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .bottom-container{
     background-color: #D5ECC2;
@@ -98,24 +104,46 @@ a:hover{
     margin: 10px auto;
 }
 .navbar {
+    
     display: grid;
     grid-template-columns: 2fr 4fr 2fr;
-    background-color: rgba(137, 43, 226, 0.308);
+    background-color: rgb(129,31,31);
     grid-area: span;
 }
 
 .logo {
+
     font-size: 50px;
     font-weight: bold;
     margin: 20px;
     margin-top: 2%;
     margin-bottom: 0%;
+    color: white;
 }
 
 .middle {
     display: inline-block;
+    
 }
 
 .right {
     display: inline-block;
+    font-size: larger;
+}
+.subtitle{
+    font-weight:600;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    width: 40%;
+    font-family: 'Overlock', cursive;
+    padding-bottom: 200px;
+    padding-top: 300px;
+    font-size: 100px;
+    margin: 0px;
+    bottom: 100px;
+}
+.social-media{
+    font-size: 30px;
 }
