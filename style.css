@@ -195,7 +195,7 @@ a:hover{
     display: inline-grid;
     /* align-items: center; */
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 3fr 1fr ;
+    grid-template-rows: auto 1fr ;
     grid-template-rows: 700px;
     grid-column-gap:10px ;
 
